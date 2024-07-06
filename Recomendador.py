@@ -54,6 +54,9 @@ def Predict(producto, data):
         col1.write('Resumen nutricional:')
         for warning in warnings:
             col1.write('- ' + warning)
+    else:
+        col1.write('Resumen nutricional:')
+        col1.write('✔️ Producto bastante equilibrado')
     
     col2.write('Composición nutricional:')
     col2.pyplot(plot_macros(producto_data))
