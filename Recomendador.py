@@ -29,10 +29,7 @@ def plot_macros(producto):
     sizes = [macros['Grasa'], macros['Carbohidratos'], macros['Proteina']]
     
     fig, ax = plt.subplots()
-    #fig.patch.set_facecolor((0.14,0.17,0.23))  # Cambiar el fondo de la figura
     pie = ax.pie(sizes, labels=labels, autopct='%1.1f%%', startangle=140)
-    #for text in pie[1]:
-        #text.set_color('white')
 
     ax.axis('equal')  # Asegurar que el gráfico de pie sea un círculo
     
