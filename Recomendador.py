@@ -96,7 +96,7 @@ def Predict(producto, data):
             'proteina': 1.5, 
             'grasa': -1,  
             'grasas_saturadas': -2,  
-            'carbohidratos': 1,  
+            'carbohidratos': -1,  
             'azucares': -2,  
             'sal': -1.5,  
             'Kcal': -1 }
